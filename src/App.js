@@ -1,7 +1,7 @@
 import React,{Component } from "react";
 import api from "./api";
 import Navbar from "./Navbar";
-import Main from "./main";
+import Banner from "./Banner";
 
 
 class App extends Component {
@@ -22,17 +22,20 @@ class App extends Component {
     
     <div>
       <Navbar/>
-      <Main/>
+      <Banner/>
       <div>
-      <main/>
       </div>
       <ul>
         {products.map((p) => (
           <li>
-            <h2>{p.productName}</h2>
+            <h2>Produtos Relacionados</h2>
+            <p>{p.productName}</p>
             <p>{p.descriptionShort}</p>
             <img src={p.photo} alt={p.productName} />
-            <p>Price: {p.price}</p>
+            <p>R$: {p.price}</p>
+            <p>ou 2x de R$ 49,95 sem juros</p>
+            <p>Frete grátis</p>
+            <button>Comprar</button>
           </li>
         ))}
       </ul>

@@ -1,0 +1,87 @@
+
+:root{
+    --primary-color:#f71963;
+    --secondary-color:#F6F5F2;
+    --black:#3F3F40;
+    --gray-1: #9F9F9F;
+}
+
+
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.img-baner{
+    width: 1443px;
+    height: 395px;
+    flex-shrink: 0;
+    padding: auto;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to top,black transparent 65%, black 100%);
+	/* -webkit-mask-image: linear-gradient(180deg, rgba(18, 12, 12, 1) 0%, #121111 85.04%); */
+}
+.promo-banner{
+    margin-left: 50px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    left: 150;
+    top: 320px;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+em{
+    font-size: 2.0rem;
+    color: var(--secondary-color)
+}
+
+.btn-banner{
+    background-color: var(--primary-color);
+    font-size: 2.0rem;
+    border: none;
+    border-radius: 0.4rem;
+    position: absolute;
+    left: 100px;
+    top: 480px;
+    z-index: 1;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 55px;
+    width: 210px;
+    padding: 15px;
+    cursor: pointer;
+}
+.menu-svg{
+    display: flex;
+    flex-direction: row;
+    margin:25px 0px 40px 60px ;
+    justify-content: space-between; 
+    gap: 70px;
+    width: 63px;
+    height: 63px;
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+    padding: 18px;
+    align-items: center;
+    box-shadow:5px 5px 5px 5px #9F9F9F;
+}
+
+.menu-svg:hover{
+    box-sizing: border-box;
+    width: 63px;
+    height: 63px;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    margin: 1rem;
+}
+

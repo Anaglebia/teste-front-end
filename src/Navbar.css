@@ -6,7 +6,7 @@
 }
 *{
     margin: 0;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
 }
 .baner-sup{
    display: flex;
@@ -16,7 +16,7 @@
    border-bottom: solid 0.1rem var(--secondary-color);
    color: var(--gray-1, #9F9F9F);
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -72,7 +72,7 @@ input{
     justify-content: space-evenly;
     color: var(--gray-1, #9F9F9F);
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
