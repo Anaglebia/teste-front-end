@@ -1,6 +1,7 @@
 import React,{Component } from "react";
 import api from "./api";
 import Navbar from "./Navbar";
+import Main from "./main";
 
 
 class App extends Component {
@@ -21,6 +22,10 @@ class App extends Component {
     
     <div>
       <Navbar/>
+      <Main/>
+      <div>
+      <main/>
+      </div>
       <ul>
         {products.map((p) => (
           <li>
