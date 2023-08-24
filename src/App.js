@@ -11,7 +11,7 @@ class App extends Component {
 
     async componentDidMount(){
       const response = await api.get('')
-      console.log(response.data)
+  
       this.setState({products: response.data.products})
     }
 
@@ -32,6 +32,8 @@ class App extends Component {
             <p>{p.productName}</p>
             <p>{p.descriptionShort}</p>
             <img src={p.photo} alt={p.productName} />
+            <p>lorem </p>
+            <p>R$ 30,00</p>
             <p>R$: {p.price}</p>
             <p>ou 2x de R$ 49,95 sem juros</p>
             <p>Frete grátis</p>
