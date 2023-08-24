@@ -1,3 +1,13 @@
+Servidor de desenvolvimento
+
+Instalar dependecias
+Execute npm install para instalar as dependecias do projeto .
+
+
+Execute npm serve para um servidor de desenvolvimento. Navegue até http://localhost:3000/. O aplicativo será recarregado automaticamente.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
